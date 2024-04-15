@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../../styles/generalForm.css";
 
 const GeneralInfoInput = ({ generalInfo, handleGeneralInfoSubmit }) => {
   const [formData, setFormData] = useState({
@@ -34,7 +35,7 @@ const GeneralInfoInput = ({ generalInfo, handleGeneralInfoSubmit }) => {
   };
 
   return (
-    <div>
+    <div className="container">
       <form onSubmit={handleSubmit}>
         <label>Name:</label>
         <input type="text" name="fullName" value={formData.fullName} onChange={handleChange} />

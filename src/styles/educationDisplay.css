@@ -1,0 +1,17 @@
+.container {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+  }
+  
